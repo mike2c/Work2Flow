@@ -1,0 +1,6 @@
+c:\users\mcastilloc\documents\visual studio 2015\Projects\WorkflowChart\WorkflowChart\bin\Debug\WorkflowChart.dll
+c:\users\mcastilloc\documents\visual studio 2015\Projects\WorkflowChart\WorkflowChart\bin\Debug\WorkflowChart.pdb
+c:\users\mcastilloc\documents\visual studio 2015\Projects\WorkflowChart\WorkflowChart\obj\Debug\WorkflowChart.csprojResolveAssemblyReference.cache
+c:\users\mcastilloc\documents\visual studio 2015\Projects\WorkflowChart\WorkflowChart\obj\Debug\WorkflowChart.dll
+c:\users\mcastilloc\documents\visual studio 2015\Projects\WorkflowChart\WorkflowChart\obj\Debug\WorkflowChart.pdb
+C:\Users\mcastilloc\documents\visual studio 2015\Projects\WorkflowChart\WorkflowChart\bin\Debug\Shapes\process.png
