@@ -16,6 +16,7 @@ namespace WorkflowChart
 		public int Y { get; set; }
 		public int Width { get; set; }
 		public int Height { get; set; }
+        public bool IsSelected { get; set; }
 
 		public Shape(int xPos, int yPos, int width, int height)
 		{
@@ -27,7 +28,22 @@ namespace WorkflowChart
 
 		public Shape() {}
 
-		public static Shape GetInstance(ShapeType shapeType) {
+        public bool Intersect(int x, int y)
+        {
+            if (((x >= this.X) && x <= (this.X + this.Width))
+                && ((y >= this.Y) && y <= (this.Y + this.Height)))
+                return true;
+
+            return false;
+        }
+
+        public void Translate(int xDisplacement, int yDisplacement)
+        {
+            this.X += xDisplacement;
+            this.Y += yDisplacement;
+        }
+
+        public static Shape GetInstance(ShapeType shapeType) {
 
 			Shape shape = null;
 

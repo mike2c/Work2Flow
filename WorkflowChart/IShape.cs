@@ -9,6 +9,6 @@ namespace WorkflowChart
 {
 	public interface IShape
 	{
-		void Draw(Graphics g);
+		void Draw(Graphics g);        
 	}
 }

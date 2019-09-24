@@ -16,6 +16,8 @@ namespace WorkflowChart
 		public int BlockSize { get; set; }
 		public int Tickness { get; set; }
 
+
+
 		public Grid() {
 			Shapes = new List<Shape>();
 			BlockSize = 20;
