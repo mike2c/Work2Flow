@@ -45,10 +45,16 @@
     <Compile Include="Canvas.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Container\BlockSizeEventArgs.cs" />
+    <Compile Include="Container\GridShapeContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Dimension.cs" />
     <Compile Include="Grid.cs" />
     <Compile Include="IShape.cs" />
+    <Compile Include="Container\ShapeContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Position.cs" />
     <Compile Include="Shape.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

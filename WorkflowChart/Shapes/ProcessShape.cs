@@ -24,7 +24,7 @@ namespace WorkflowChart.Shapes
 
 			brush = new SolidBrush(Color.FromArgb(255, 98, 156, 233));
 			g.FillRectangle(brush, X + 6, Y + 6, Width - 10, Height - 10);
-			g.DrawImage(Image.FromFile("Shapes/process.png"), X+ 2,Y+ 2, 18, 18);
+			g.DrawImage(Image.FromFile("Shapes/process.png"), X+ 8,Y+ 8, 18, 18);
 
 		}
 	}
